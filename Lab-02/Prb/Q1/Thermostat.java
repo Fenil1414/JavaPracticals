@@ -1,12 +1,8 @@
 public class Thermostat {
-   private String location;
    private int temperature;
-   private static final int MIN = 16;
-   private static final int MAX = 30;
    private static int activeCount = 0;
 
    public Thermostat(String var1, int var2) {
-      this.location = var1;
       if (var2 >= 16 && var2 <= 30) {
          this.temperature = var2;
       } else {
