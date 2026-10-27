@@ -1,5 +1,3 @@
-package service;
-import model.Item;
 import java.io.*;
 import java.nio.file.*;
 import java.util.ArrayList;
@@ -22,4 +20,13 @@ public class ItemService {
     }
     public int count() { return items.size(); }
     public ArrayList<Item> all() { return new ArrayList<>(items); }
+    public void performAction(String string) {
+        throw new UnsupportedOperationException("Unimplemented method 'performAction'");
+    }
+    public void displayItems() {
+        throw new UnsupportedOperationException("Unimplemented method 'displayItems'");
+    }
+    public void addItem(Item item) {
+        throw new UnsupportedOperationException("Unimplemented method 'addItem'");
+    }
 }

@@ -27,7 +27,7 @@ public class ItemApp {
                         break;
 
                     case 2:
-                        System.out.println("Count: " + service.getCount());
+                        System.out.println("Count: " + service.count());
                         break;
 
                     case 3:

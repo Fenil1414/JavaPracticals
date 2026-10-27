@@ -1,5 +1,3 @@
-package app;
-import service.ItemService;
 import java.util.Scanner;
 public class ItemApp {
     public static void main(String[] args) {

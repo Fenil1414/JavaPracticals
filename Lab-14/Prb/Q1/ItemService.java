@@ -25,7 +25,7 @@ public class ItemService {
 
     public void displayItems() {
         for (Item item : items) {
-            System.out.println(item.getName());
+            System.out.println(item.name());
         }
     }
 }
